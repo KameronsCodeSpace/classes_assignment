@@ -271,8 +271,8 @@ class Vehicle {
 }
 
 class Car extends Vehicle{
-  constructor(make, model, color, name) {
-    super(color, name)
+  constructor(color, name, make, model) {
+    super(color, name);
     this.make = make;
     this.model = model;
   }
